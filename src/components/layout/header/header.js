@@ -34,15 +34,7 @@ const Header = () => {
         <div className={style.title}>
           <Link to={Utils.resolvePageUrl(Config.pages.home)}>
             <h4>{Config.siteTitle}</h4>
-            <p
-              className={
-                isHeaderCollapsed
-                  ? style.hiddenDescription
-                  : style.visibleDescription
-              }
-            >
-              {Config.siteDescription}
-            </p>
+           
           </Link>
         </div>
         <div className={style.menuButton}>

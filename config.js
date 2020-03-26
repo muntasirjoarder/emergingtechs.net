@@ -1,13 +1,13 @@
 
 module.exports = {
   pathPrefix: '/gatsby-starter-developer-blog',
-  siteUrl: 'https://lgcolella.github.io',
-  siteTitle: 'Luigi Colella',
-  siteDescription: 'Logbook of a software developer',
+  siteUrl: 'https://emergingtechs.net',
+  siteTitle: 'Emergingtechs.net',
+  siteDescription: 'IoT, Smart City, Smart Home',
   author: 'lcolella',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: 'https://luigi-colella.disqus.com/embed.js',
+  disqusScript: 'https://emergingtechs.disqus.com/embed.js',
   pages: {
     home: '/',
     blog: 'blog',
@@ -16,11 +16,38 @@ module.exports = {
     archive: 'archive'
   },
   social: {
-    github: 'https://github.com/lgcolella',
+    github: 'https://github.com/muntasirjoarder',
     linkedin: '',
     rss: '/rss.xml'
   },
   tags: {
+    gatsby: {
+      name: 'Gatsby JS',
+      description: 'Gatsby JS.'
+    },
+    neo4j: {
+      name: 'Neo4J',
+      description: 'Neo4J Graph Database.'
+    },
+    blockchain: {
+      description: 'Distributed Ledger Technology (DLT).'
+    },
+    iot: {
+      name: 'Internet-of-Things(IoT)',
+      description: 'Internet-of-Things (IoT).'
+    },
+    ttn: {
+      name: 'TTN',
+      description: 'The Things Network (TTN). Open source LoRaWAN network server'
+    },
+    lorawan: {
+      name: 'LoRaWAN',
+      description: 'Long Range Wide Area Network. One of the top communications networks used by IoT  devices'
+    },
+    smartcity: {
+      name: 'Smart City',
+      description: 'Smart City is a connected city.'
+    },
     angular: {
       description: 'Angular is an open source web application platform.'
     },

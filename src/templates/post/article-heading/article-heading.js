@@ -2,12 +2,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import { FaRegCalendarAlt, FaRegClock } from 'react-icons/fa'
+import { FaRegCalendarAlt, FaRegClock, FaPenNib } from 'react-icons/fa'
 import { MdTranslate } from 'react-icons/md'
 /* App imports */
 import style from './article-heading.module.less'
 
-const ArticleHeading = ({ excerpt, date, time, translations }) => (
+const ArticleHeading = ({ excerpt, date, time, translations, author }) => (
   <div className={style.container}>
     <div className={style.excerpt}>
       <p>{excerpt}</p>
@@ -23,6 +23,12 @@ const ArticleHeading = ({ excerpt, date, time, translations }) => (
         <FaRegClock /> Time to read:{' '}
       </strong>
       <span>{time}m</span>
+    </label>
+    <label>
+      <strong>
+        <FaPenNib /> Author:{' '}
+      </strong>
+      <span>{author}</span>
     </label>
     {translations ? (
       <label>

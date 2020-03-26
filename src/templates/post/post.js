@@ -16,7 +16,7 @@ import style from './post.module.less'
 
 const Post = ({ data, pageContext }) => {
   const { html, frontmatter, timeToRead } = data.markdownRemark
-  const { title, date, tags, cover, path, excerpt } = frontmatter
+  const { title, date, tags, cover, path, excerpt, author } = frontmatter
   const translations =
     pageContext.translations.length > 1 ? pageContext.translations : null
   const img = cover.childImageSharp.fluid
@@ -42,6 +42,7 @@ const Post = ({ data, pageContext }) => {
         imageUrl={img.src}
         keywords={tags}
         translations={translations}
+        author = {author}
       />
       <div className={style.container}>
         <Heading title={title} tags={tags} cover={img} coverTitle={excerpt} />
@@ -51,6 +52,14 @@ const Post = ({ data, pageContext }) => {
             date={date}
             time={timeToRead}
             translations={translations}
+            author = {author}
+          />
+           <Share
+            pageCanonicalUrl={canonicalUrl}
+            title={title}
+            description={excerpt}
+            tags={tags}
+            coverUrl={coverUrl}
           />
           <Article html={html} />
           <Share
@@ -61,8 +70,8 @@ const Post = ({ data, pageContext }) => {
             coverUrl={coverUrl}
           />
         </div>
-        <SuggestedPosts posts={suggestedPosts} />
         <Comments pageCanonicalUrl={canonicalUrl} pageId={title} />
+        <SuggestedPosts posts={suggestedPosts} />
       </div>
     </Layout>
   )
@@ -79,6 +88,7 @@ export const pageQuery = graphql`
         tags
         path
         excerpt
+        author
         cover {
           childImageSharp {
             fluid(maxWidth: 1000) {
