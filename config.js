@@ -3,8 +3,8 @@ module.exports = {
   pathPrefix: '/gatsby-starter-developer-blog',
   siteUrl: 'https://emergingtechs.net',
   siteTitle: 'Emergingtechs.net',
-  siteDescription: 'IoT, Smart City, Smart Home',
-  author: 'lcolella',
+  siteDescription: 'An IoT Solution Company',
+  author: 'mjoarder',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: 'https://emergingtechs.disqus.com/embed.js',
@@ -13,12 +13,15 @@ module.exports = {
     blog: 'blog',
     about: 'about',
     tag: 'tag',
-    archive: 'archive'
+    archive: 'archive',
+    smartcity: 'smartcity',
+    smarthome: 'smarthome',
+    contact: 'contact'
   },
   social: {
-    github: 'https://github.com/muntasirjoarder',
+    facebook: '',
     linkedin: '',
-    rss: '/rss.xml'
+    twitter: ''
   },
   tags: {
     gatsby: {

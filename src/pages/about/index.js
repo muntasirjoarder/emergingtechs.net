@@ -44,36 +44,54 @@ class About extends React.Component {
           path="about"
         />
         <div className={style.container}>
-          <div className={style.photo}>
-            <Img fluid={profilePhoto.childImageSharp.fluid} />
-          </div>
+        
           <div className={style.content}>
-            <h1>Hi, I'm Luigi!</h1>
-            <h2>Software Developer</h2>
-            <p>Per la versione italiana clicca qui</p>
-            <a href={Utils.resolvePageUrl('../', 'it', 'about')}>
-              <Img
-                fixed={flagIt.childImageSharp.fixed}
-                style={{ display: 'block', margin: 'auto' }}
-              />
-            </a>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              cursus venenatis arcu, cursus pretium enim lacinia nec. Duis
-              viverra sagittis neque. Fusce non luctus urna. Vivamus suscipit
-              metus ac posuere egestas. Nunc a pulvinar purus. Vivamus nisi mi,
-              fringilla quis lacus et, sagittis mollis massa. Cras tempus massa
-              quis lobortis laoreet. Pellentesque metus odio, sagittis nec
-              venenatis non, maximus congue eros. Suspendisse pellentesque purus
-              sit amet ante commodo, et molestie mauris aliquet. Proin non nibh
-              libero. Fusce at nulla euismod, condimentum augue quis, convallis
-              justo.
-            </p>
+            <h1>An IoT Solutions Company</h1>
+         
+            <p>Emergingtechs.net, as the name implies, works with the advanced emerging technology stacks to provide end to end solutions for its clients. Our expertise are in Smart City IoT and Smart Home Automation.</p>
+            <p>We have extensive experience in working in Local government sector implementing Smart City IoT architecture and use cases.</p>
+           <h2>Services</h2>
+           <div className={style.services}>
+           <strong>Smart Home Automation</strong>
+           <ul>
+             <li>Smart Home solution</li>
+             <li>Smart Home products</li>
+             <li>Home Assistant Hub</li>
+           </ul>
+           <strong>Consultancy</strong>
+           <ul>
+             <li>IoT Integration and Proof-of-Concept(PoC)</li>
+             <li>Device selection</li>
+             <li>IoT Application Platform</li>
+             <li>LPWAN (Low Power Wide Area Network)</li>
+             <li>IoT feasibility study, specification and tender evaluation</li>
+           </ul>
+           <strong>IoT Architecture and SOP</strong>
+           <ul>
+             <li>Smart City IoT data modelling</li>
+             <li>Implement IoT architecture in cloud</li>
+             <li>IoT SOP (Standard Operating Procedure)</li>
+           </ul>
+        
+           <strong>LoRaWAN Network Implementation</strong>
+           <ul>
+             <li>LoRaWAN network rollout</li>
+             <li>Public/Private IoT network cloud</li>
+             <li>Network Asset information management</li>
+           </ul>
+           <strong>Managed Services</strong>
+           <ul>
+             <li>IoT Network Cloud (i.e The Things Network,Senet etc) </li>
+             <li>IoT Application Platform</li>
+             <li>Other IoT related 3rd party platforms</li>
+           </ul>
+            </div>
             <br />
-            <h2>Skills</h2>
+           
+            <h2>Expertise</h2>
             <ImageList edges={skillIcons.edges} />
-            <h2>Tools</h2>
-            <ImageList edges={toolIcons.edges} />
+          
+           
           </div>
         </div>
       </Layout>
@@ -163,12 +181,17 @@ export const query = graphql`
 `
 // Use to set specific icons names
 export const iconsNameMap = {
-  css: 'CSS',
-  html: 'HTML',
-  jquery: 'JQuery',
+  ttn: 'TTN',
+  lorawan: 'LoRaWAN',
+  iot: 'IoT',
   nodejs: 'Node.js',
-  vuejs: 'Vue.js',
-  gruntjs: 'Grunt.js',
+  gatsby: 'Gatsby.js',
+  powerbi: 'Power BI',
+  smartcity: 'Smart City',
+  smarthomefreepik: 'Smart Home',
+  react: 'React JS',
+  homeassistant: 'Home Assistant',
+  nodered: 'Node-RED'
 }
 
 export default About
