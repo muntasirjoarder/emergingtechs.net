@@ -2,7 +2,7 @@
 title: 24 Steps to convert Bootstrap website to blazing fast Gatsby website
 date: 2018-01-19
 tags: [gatsby,javascript]
-path: blog/2019-01-21-24-Steps-to-convert-Bootstrap-website-to-blazing-fast-Gatsby-website
+path: 24-Steps-to-convert-Bootstrap-website-to-blazing-fast-Gatsby-website
 cover: ./preview.png
 excerpt: Steps to implement a Bootstrap theme into a superfast Gatsby website.
 author: "Muntasir Joarder"

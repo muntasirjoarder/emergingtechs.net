@@ -2,7 +2,7 @@
 title: MTDOT Box with The Things Networks
 date: 2018-04-17
 tags: [iot, ttn, lorawan]
-path: blog/mtdot-box-with-the-things-networks
+path: mtdot-box-with-the-things-networks
 cover: ./preview.png
 excerpt: Learn how to configure a LoRaWAN device into The Things Network.
 author: "Muntasir Joarder"

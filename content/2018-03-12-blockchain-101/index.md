@@ -2,7 +2,7 @@
 title: Blockchain 101
 date: 2018-11-12
 tags: [javascript,blockchain]
-path: blog/blockchain-101
+path: blockchain-101
 cover: ./preview.jpeg
 excerpt: Know how blockchain technology actually works.
 author: "Muntasir Joarder"
