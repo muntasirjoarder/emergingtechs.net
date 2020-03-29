@@ -21,7 +21,7 @@ class Thankyou extends React.Component {
         <div className={style.container}>
         
           <div className={style.content}>
-            <h1>Contact Us</h1>
+            <h1>Thank you</h1>
          <p>Thank you for contacting us. Someone will contact you as soon as possible.</p>
          
           
