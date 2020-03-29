@@ -2,7 +2,7 @@
 import React from 'react'
 /* App imports */
 import Layout from '../../components/layout'
-import Contact from '../../components/contact-form'
+import ContactForm from '../../components/contact-form'
 import SEO from '../../components/seo'
 import style from './index.module.less'
 
@@ -23,7 +23,7 @@ class Thankyou extends React.Component {
           <div className={style.content}>
             <h1>Contact Us</h1>
          <p>Thank you for contacting us. Someone will contact you as soon as possible.</p>
-         <Contact />
+         <ContactForm />
           
           </div>
         </div>

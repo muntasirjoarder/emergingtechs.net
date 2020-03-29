@@ -2,7 +2,7 @@
 import React from 'react'
 /* App imports */
 import Layout from '../../components/layout'
-import Contact from '../../components/contact-form'
+import ContactForm from '../../components/contact-form'
 import SEO from '../../components/seo'
 import style from './index.module.less'
 
@@ -21,9 +21,9 @@ class Contact extends React.Component {
         <div className={style.container}>
         
           <div className={style.content}>
-            <h1>Contact Us</h1>
+            <h1>Get in touch</h1>
          <p>Please write us and we will contact you back.</p>
-         <Contact />
+         <ContactForm />
           
           </div>
         </div>
