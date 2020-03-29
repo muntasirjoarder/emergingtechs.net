@@ -7,22 +7,22 @@ import SEO from '../../components/seo'
 import style from './index.module.less'
 
 
-class Contact extends React.Component {
+class Thankyou extends React.Component {
 
   render() {
    
     return (
       <Layout>
         <SEO
-          title="Contact Page"
-          description="A brief summary of this blog"
-          path="contact"
+          title="Thank you Page"
+          description="A page to thank your customer"
+          path="contact/gthankyou"
         />
         <div className={style.container}>
         
           <div className={style.content}>
             <h1>Contact Us</h1>
-         <p>Please write us and we will contact you back.</p>
+         <p>Thank you for contacting us. Someone will contact you as soon as possible.</p>
          <Contact />
           
           </div>
@@ -32,4 +32,4 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact
+export default Thankyou
