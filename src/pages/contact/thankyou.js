@@ -23,7 +23,7 @@ class Thankyou extends React.Component {
           <div className={style.content}>
             <h1>Contact Us</h1>
          <p>Thank you for contacting us. Someone will contact you as soon as possible.</p>
-         <ContactForm />
+         
           
           </div>
         </div>
