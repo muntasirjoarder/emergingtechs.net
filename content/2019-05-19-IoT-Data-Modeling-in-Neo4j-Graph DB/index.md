@@ -3,7 +3,7 @@ title: IoT Data Modeling in Neo4j Graph DB
 date: 2018-05-19
 tags: [neo4j]
 path: IoT-Data-Modeling-in-Neo4j-Graph-DB
-cover: ./preview.jpeg
+cover: ./preview.png
 excerpt: Model Graph database in Neo4j to implement IoT device metadata.
 author: "Muntasir Joarder"
 ---
