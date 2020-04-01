@@ -6,6 +6,7 @@ import useEvent from '../../hooks/useEvent'
 import style from './header.module.less'
 import Config from '../../../../config'
 import Utils from '../../../utils'
+const logo = require('../../../images/icon.png')
 
 const Header = () => {
   const [isMenuCollapsed, setMenuCollapsed] = useState(false)
@@ -31,6 +32,9 @@ const Header = () => {
       style={isHeaderCollapsed ? { backgroundImage: 'none' } : null}
     >
       <div className={style.titleContainer}>
+        <div className={style.logo}>
+          <img src={logo} />
+        </div>
         <div className={style.title}>
           <Link to={Utils.resolvePageUrl(Config.pages.home)}>
             <h4>{Config.siteTitle}</h4>

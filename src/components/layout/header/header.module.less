@@ -28,6 +28,7 @@
 
 .titleContainer {
     display: flex;
+    position: relative;
     width: 30%;
     align-items: center;
     @media @mobile {
@@ -35,8 +36,18 @@
     }
 }
 
+.logo {
+    height: 40px;
+    img {
+        height: 40px;
+    }
+}
+
 .title {
+    position: absolute;
+    left: 2.1rem;
     h4 {
+     
         margin: @margin-zero;
         padding: @padding-zero @padding-small;
         color: inherit;
