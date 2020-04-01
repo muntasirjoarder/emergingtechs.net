@@ -4,7 +4,7 @@ module.exports = {
   siteUrl: 'https://emergingtechs.net',
   siteTitle: 'Emergingtechs.net',
   siteDescription: 'An IoT Solution Company',
-  author: 'mjoarder',
+  author: 'muntasirJoarder',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: 'https://emergingtechs.disqus.com/embed.js',
