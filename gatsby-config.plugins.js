@@ -16,8 +16,8 @@ module.exports = [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Luigi Colella Blog',
-        short_name: 'Luigi Colella',
+        name: 'Emergingtechs.net',
+        short_name: 'Emergingtechs.net',
         start_url: '/',
         background_color: '#0C2744',
         theme_color: '#0C2744',
@@ -56,6 +56,12 @@ module.exports = [
         langKeyDefault: config.defaultLanguage,
         useLangKeyLayout: false
       }
+    },
+    {
+      resolve: `gatsby-plugin-suscribers`,
+      options: {
+        id: 'a0f60da3-72fe-40f6-bd2b-78a381876044',
+      },
     },
     feedPlugin,
     `gatsby-plugin-sitemap`,
